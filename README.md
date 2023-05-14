@@ -8,7 +8,7 @@
       src="https://github.com/goitacademy/react-homework/blob/master/homework-01/social-profile/preview.png"
       alt="User avatar"
       class="avatar"
-    />"
+    />
 
 ## Опис компонента `<Profile>`
 
