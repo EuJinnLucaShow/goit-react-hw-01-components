@@ -5,14 +5,10 @@
 Необхідно створити компонент `<Profile>`, за допомогою якого ми могли б відображати інформацію про користувача соціальної мережі. Дані про користувача лежать у файлі [user.json](./user.json).
 
 <img
-      src="<img
       src="https://github.com/goitacademy/react-homework/blob/master/homework-01/social-profile/preview.png"
       alt="User avatar"
       class="avatar"
     />"
-      alt="User avatar"
-      class="avatar"
-    />
 
 ## Опис компонента `<Profile>`
 
