@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './statistics.styled.css';
 
 const Statistics = ({ title, stats }) => {
   const generateRandomColor = () => {

@@ -42,7 +42,7 @@
 }
 
 .stats {
-  background-color: #fff;
+  background-color: #e5dfdf;
   width: 350px;
   display: flex;
   margin: 0 auto;
@@ -75,14 +75,15 @@
   font-size: 16px;
   line-height: 1.62;
   font-weight: 16px;
-  text-align: center;   
+  text-align: center; 
+  justify-content: center  
 }
 
 .quantity {  
   text-align: center;
   font-size: 16px;
   line-height: 1.58;
-  font-weight: 18px;
+  font-weight: bold;
   margin: 10px auto;  
 }
 
