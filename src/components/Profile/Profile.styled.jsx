@@ -1,15 +1,14 @@
+import styled from '@emotion/styled'
 
-.profile {   
+export const ProfileDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #aa9068;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-
-.description {
+`
+export const Description = styled.div`
   background-color: #f4f0ec;
   display: flex;
   flex-direction: column;
@@ -17,31 +16,27 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 350px;  
-}
-
-.description .avatar {
+`
+export const Avatar = styled.img`
   display: block;
   height: 220px;
   width: 200px;
   margin-top: 20px;
-}
-  
-.name {
+`
+export const Name = styled.p`
   font-size: 22px;
   line-height: 1.62;
   font-weight: 20px;
   color: #0f0f4f;
   margin-top: 20px;
-}
-
-.teg {
+`
+export const Text = styled.p`
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.58;
-  font-weight: 18px;  
-}
-
-.stats {
+  font-weight: 18px; 
+`
+export const Stats = styled.ul`
   background-color: #fff;
   width: 350px;
   display: flex;
@@ -51,39 +46,34 @@
   justify-content: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-
-.stats li:not(:last-child) {
-  border-right: 1px solid #0f0f4f;
-}
-
-.stats li:not(:last-child) span {
-  border-right: none;
-}
-
-.stats li {
+`
+export const StatsList = styled.li`
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;  
   padding: 5px;
   border-top: 1px solid #0f0f4f;
+      :not(:last-child) {
+  border-right: 1px solid #0f0f4f;
 }
-  
-.label {
+      :not(:last-child) span {
+  border-right: none;
+}
+`
+export const SpanLabel = styled.span`
   display: flex;
   font-size: 16px;
   line-height: 1.62;
   font-weight: 16px;
   text-align: center; 
-  justify-content: center  
-}
-
-.quantity {  
+  justify-content: center 
+`
+export const SpanQuantity = styled.span`
   text-align: center;
   font-size: 16px;
   line-height: 1.58;
   font-weight: bold;
-  margin: 10px auto;  
-}
+  margin: 10px auto; 
+`
 

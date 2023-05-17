@@ -1,35 +1,32 @@
 import PropTypes from 'prop-types';
-import './profile.styled.css';
+import { ProfileDiv, Description, Avatar, Name, Text,  Stats, StatsList, SpanLabel, SpanQuantity } from './Profile.styled';
+
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className="profile">
-      <div className="description">
-        <img
-          src={avatar}
-          alt="Аватар користувача"
-          className="avatar"
-        />
-        <p className="name">{username}</p>
-        <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>
-      </div>
+    <ProfileDiv>
+      <Description>
+        <Avatar src={avatar} alt={username} />
+        <Name>{username}</Name>
+        <Text>@{tag}</Text>
+        <Text>{location}</Text>
+      </Description>
 
-      <ul className="stats">
-        <li>
-          <span className="label">Followers</span>
-          <span className="quantity">{stats.followers}</span>
-        </li>
-        <li>
-          <span className="label">Views</span>
-          <span className="quantity">{stats.views}</span>
-        </li>
-        <li>
-          <span className="label">Likes</span>
-          <span className="quantity">{stats.likes}</span>
-        </li>
-      </ul>
-    </div>
+      <Stats>
+        <StatsList>
+          <SpanLabel>Followers</SpanLabel>
+          <SpanQuantity>{stats.followers}</SpanQuantity>
+        </StatsList>
+        <StatsList>
+          <SpanLabel>Views</SpanLabel>
+          <SpanQuantity>{stats.views}</SpanQuantity>
+        </StatsList>
+        <StatsList>
+          <SpanLabel>Likes</SpanLabel>
+          <SpanQuantity>{stats.likes}</SpanQuantity>
+        </StatsList>
+      </Stats>
+    </ProfileDiv>
   );
 };
 
