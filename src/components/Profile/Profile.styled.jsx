@@ -18,8 +18,7 @@ export const Description = styled.div`
   width: 350px;  
 `
 export const Avatar = styled.img`
-  display: block;
-  height: 220px;
+  display: block;  
   width: 200px;
   margin-top: 20px;
 `
