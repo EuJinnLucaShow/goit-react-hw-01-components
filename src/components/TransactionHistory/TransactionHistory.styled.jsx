@@ -1,4 +1,6 @@
-.transaction-history {  
+import styled from '@emotion/styled'
+
+export const TransactionHistoryTable = styled.table`
   border-collapse: collapse;  
   table-layout: auto;
   border: 2px solid silver;
@@ -7,23 +9,23 @@
   margin: 60px auto;
   padding: 5px;
   background-color: beige;
-}
-
-.transaction-history th,
-.transaction-history td {
+`
+export const TableHeader = styled.th`
   padding: 8px;
   text-align: center;
   border-bottom: 1px solid #ddd;
-}
-
-.transaction-history th {
   background-color: #f5f5f5;
-}
-
-.transaction-history tbody tr:nth-child(even) {
+`
+export const TableData = styled.td`
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+`
+export const TableRow = styled.tr`
+:nth-child(even) {
   background-color: #f9f9f9;
 }
-
-.transaction-history tbody tr:hover {
+:hover {
   background-color: #f0f0f0;
 }
+`
