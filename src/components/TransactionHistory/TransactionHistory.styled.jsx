@@ -8,13 +8,13 @@ export const TransactionHistoryTable = styled.table`
   width: 400px;
   margin: 60px auto;
   padding: 5px;
-  background-color: beige;
+  background-color: beige;  
 `
 export const TableHeader = styled.th`
   padding: 8px;
   text-align: center;
   border-bottom: 1px solid #ddd;
-  background-color: #f5f5f5;
+  background-color: #bfeef5;  
 `
 export const TableData = styled.td`
   padding: 8px;
