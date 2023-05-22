@@ -54,11 +54,11 @@ export const StatsList = styled.li`
   padding: 5px;
   border-top: 1px solid #0f0f4f;
       :not(:last-child) {
-  border-right: 1px solid #0f0f4f;
-}
+            border-right: 1px solid #0f0f4f;
+                                            }
       :not(:last-child) span {
-  border-right: none;
-}
+            border-right: none;
+                                }
 `
 export const SpanLabel = styled.span`
   display: flex;

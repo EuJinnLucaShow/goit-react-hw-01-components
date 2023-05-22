@@ -22,7 +22,7 @@ export const TableData = styled.td`
   border-bottom: 1px solid #ddd;
 `
 export const TableRow = styled.tr`
-:nth-child(even) {
+:nth-of-type(even) {
   background-color: #f9f9f9;
 }
 :hover {
